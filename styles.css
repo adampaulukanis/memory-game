@@ -1,0 +1,38 @@
+@charset "UTF-8";
+:root {
+  --main-bg-color: #f29c54;
+}
+html {
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  list-style-type: none;
+  border: 2px solid lime;
+  margin: auto;
+  padding: 0;
+  width: 640px;
+}
+.card {
+  font-size: 250%;
+  border: 2px solid aqua;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
