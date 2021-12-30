@@ -57,4 +57,4 @@ cards.forEach((card) => {
   card.addEventListener('click', handleClick);
 });
 
-//shuffle();
+shuffle();
